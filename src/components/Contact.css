@@ -7,7 +7,7 @@
 }
 
 body {
-  background: linear-gradient(to right, #ea1d6f 0%, #eb466b 100%);
+  background: linear-gradient(to right, tomato 0%, #eb466b 100%);
   font-size: 12px;
 }
 
@@ -68,11 +68,11 @@ input {
   height: 8px;
   margin-right: 3px;
   border-radius: 8px;
-  background: white;
+  background: #ffffff;
 }
 
 .screen-header-button.close {
-  background: #ed1c6f;
+  background: #ff334f;
 }
 
 .screen-header-button.maximize {
@@ -113,7 +113,7 @@ input {
   display: flex;
   flex-direction: column;
   position: relative;
-  color: #ea1d6f;
+  color: #ff6347;
   font-size: 26px;
 }
 
@@ -125,7 +125,7 @@ input {
   bottom: -10px;
   width: 25px;
   height: 4px;
-  background: #ea1d6f;
+  background: #ff6347;
 }
 
 .app-contact {
@@ -155,7 +155,7 @@ input {
   border-bottom: 1px solid #666;
   color: #ddd;
   font-size: 14px;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   outline: none;
   transition: border-color 0.2s;
 }
@@ -171,14 +171,14 @@ input {
 .app-form-button {
   background: none;
   border: none;
-  color: #ea1d6f;
+  color: #ff6347;
   font-size: 14px;
   cursor: pointer;
   outline: none;
 }
 
 .app-form-button:hover {
-  color: #b9134f;
+  color: #ff334f;
 }
 
 .credits {
